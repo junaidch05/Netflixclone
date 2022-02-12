@@ -1,0 +1,52 @@
+.row{
+    margin-left:20px;
+    color: #fff;
+}
+.posters{
+    display: flex;
+overflow-y: hidden;
+overflow-x: scroll;
+ 
+}
+.posters::-webkit-scrollbar{
+    display: none;
+    scroll-behavior: smooth;
+}
+.ipost{
+   max-height: 20vh;
+    object-fit: contain;
+    margin:1.3rem;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 450ms;
+    
+}
+.ipost:hover{
+    transform: scale(1.08);
+    max-height: 23vh;
+}
+.largeImage{
+    max-height: 38vh;
+    transition:  height 4s;
+}
+.largeImage:hover{
+max-height: 40vh;
+}
+
+@media(max-width:500px)
+{
+    .ipost{
+        max-height: 15vh;
+    }
+    .ipost:hover{
+        
+        max-height: 18vh;
+    }
+    .largeImage{
+        max-height: 25vh;
+        transition:  height 4s;
+    }
+    .largeImage:hover{
+    max-height: 30vh;
+    }
+}

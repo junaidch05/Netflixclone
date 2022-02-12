@@ -1,0 +1,56 @@
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+.form-container{
+
+position: absolute;
+top: 25%;
+background: rgba(0, 0, 0, 0.85);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 25rem;
+height: 50vh;
+color: #fff;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+   form input{
+margin: .5rem;
+font-size: 1.5rem;
+   }
+   form button{
+    margin: .5rem;
+    font-size: 1.5rem;  
+    background:red;
+    color: #fff;
+   }
+   p{
+       font-size: 1.5rem;
+     
+   }
+   p span:hover{
+     font-weight: bolder;
+     text-decoration: underline;
+   }
+   
+@media(max-width:500px){
+    .form-container{
+        padding: 2.5rem;
+        text-align: center;
+        top: 30%;
+        width: 20rem;
+height: 45vh;
+font-size: 1rem;
+    }
+}

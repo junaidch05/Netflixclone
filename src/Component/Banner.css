@@ -1,0 +1,102 @@
+
+
+
+.banner{
+ 
+    height:100vh;
+    width:100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center;
+      box-sizing: border-box;
+      
+   
+   
+}
+.banner-body{
+    display: flex;
+ position: relative;
+ top: 25%;
+ left: 2rem;
+ 
+ 
+
+    
+    flex-direction: column;
+}
+.banner-name h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+    
+
+}
+.banner-dis p{
+    margin-top: .5rem;
+    font-size: 1rem;
+    width: 30rem;
+    text-align: justify;
+    color: white;
+}
+.banner-button button{
+    background:rgba(0, 0, 0, 0.85);
+    color:#fff;
+    margin-top:.6rem ;
+    margin-right: .7rem;
+   display: inline-block;
+   border-radius: 7.5px;
+   padding: .5rem;
+    width: 7rem;
+
+}
+
+@media(max-width:786px){
+.banner{
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    object-fit: fill;
+    background-position: center;
+    
+}
+.banner p{
+    font-size: .7rem;
+    width: 40vw;
+}
+.banner h1{
+    font-size: 1.5rem;
+}
+
+
+
+
+}
+@media(max-width:486px){
+    .banner{
+        height: 50vh;
+        width: 100%;
+        background-size: cover;
+        object-fit: fill;
+        background-position: center;
+        
+    }
+    .banner p{
+        font-size: .7rem;
+        width:50vw
+        
+    }
+    .banner h1{
+        font-size: 1.3rem;
+    }
+    .banner-button button{
+      
+       
+        width: 4rem;
+        font-size: .5rem;
+    font-weight: bolder;
+    }
+    
+    
+    
+    
+    }
